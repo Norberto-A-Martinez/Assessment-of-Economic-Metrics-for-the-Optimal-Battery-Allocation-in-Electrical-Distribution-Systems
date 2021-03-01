@@ -1,6 +1,7 @@
 # nominal voltage (kV)
 param vb       := 12.66;  
-
+param vmax	:= 1.05; #p.u.
+param vmin	:= 0.90; #p.u.
 
 # node of the substation
 param SE       := 0; 
